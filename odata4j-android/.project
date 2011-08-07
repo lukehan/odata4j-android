@@ -21,13 +21,8 @@
 			</arguments>
 		</buildCommand>
 		<buildCommand>
-			<name>org.eclipse.ui.externaltools.ExternalToolBuilder</name>
-			<triggers>full,incremental,</triggers>
+			<name>com.android.ide.eclipse.adt.ApkBuilder</name>
 			<arguments>
-				<dictionary>
-					<key>LaunchConfigHandle</key>
-					<value>&lt;project&gt;/.externalToolBuilders/com.android.ide.eclipse.adt.ApkBuilder.launch</value>
-				</dictionary>
 			</arguments>
 		</buildCommand>
 	</buildSpec>
@@ -39,42 +34,42 @@
 		<link>
 			<name>src/org/odata4j/examples/BaseExample.java</name>
 			<type>1</type>
-			<locationURI>WORKSPACE_LOC/odata4j-core/src/test/java/org/odata4j/examples/BaseExample.java</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/odata4j-core/src/test/java/org/odata4j/examples/BaseExample.java</locationURI>
 		</link>
 		<link>
 			<name>src/org/odata4j/examples/ODataEndpoints.java</name>
 			<type>1</type>
-			<locationURI>WORKSPACE_LOC/odata4j-core/src/test/java/org/odata4j/examples/ODataEndpoints.java</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/odata4j-core/src/test/java/org/odata4j/examples/ODataEndpoints.java</locationURI>
 		</link>
 		<link>
 			<name>src/org/odata4j/examples/consumer/AppEngineConsumerExample.java</name>
 			<type>1</type>
-			<locationURI>WORKSPACE_LOC/odata4j-core/src/test/java/org/odata4j/examples/consumer/AppEngineConsumerExample.java</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/odata4j-core/src/test/java/org/odata4j/examples/consumer/AppEngineConsumerExample.java</locationURI>
 		</link>
 		<link>
 			<name>src/org/odata4j/examples/consumer/AzureTableStorageConsumerExample.java</name>
 			<type>1</type>
-			<locationURI>WORKSPACE_LOC/odata4j-core/src/test/java/org/odata4j/examples/consumer/AzureTableStorageConsumerExample.java</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/odata4j-core/src/test/java/org/odata4j/examples/consumer/AzureTableStorageConsumerExample.java</locationURI>
 		</link>
 		<link>
 			<name>src/org/odata4j/examples/consumer/DallasConsumerExampleAP.java</name>
 			<type>1</type>
-			<locationURI>WORKSPACE_LOC/odata4j-core/src/test/java/org/odata4j/examples/consumer/DallasConsumerExampleAP.java</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/odata4j-core/src/test/java/org/odata4j/examples/consumer/DallasConsumerExampleAP.java</locationURI>
 		</link>
 		<link>
 			<name>src/org/odata4j/examples/consumer/DallasConsumerExampleUnescoUIS.java</name>
 			<type>1</type>
-			<locationURI>WORKSPACE_LOC/odata4j-core/src/test/java/org/odata4j/examples/consumer/DallasConsumerExampleUnescoUIS.java</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/odata4j-core/src/test/java/org/odata4j/examples/consumer/DallasConsumerExampleUnescoUIS.java</locationURI>
 		</link>
 		<link>
 			<name>src/org/odata4j/examples/consumer/NetflixConsumerExample.java</name>
 			<type>1</type>
-			<locationURI>WORKSPACE_LOC/odata4j-core/src/test/java/org/odata4j/examples/consumer/NetflixConsumerExample.java</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/odata4j-core/src/test/java/org/odata4j/examples/consumer/NetflixConsumerExample.java</locationURI>
 		</link>
 		<link>
 			<name>src/org/odata4j/examples/consumer/ODataTestServiceReadWriteExample.java</name>
 			<type>1</type>
-			<locationURI>WORKSPACE_LOC/odata4j-core/src/test/java/org/odata4j/examples/consumer/ODataTestServiceReadWriteExample.java</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/odata4j-core/src/test/java/org/odata4j/examples/consumer/ODataTestServiceReadWriteExample.java</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

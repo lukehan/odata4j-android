@@ -24,6 +24,8 @@ public class ServicesVM {
     rt.add(new ServiceVM("OGDI", ODataEndpoints.OGDI_DC));
     rt.add(new ServiceVM("World Cup", ODataEndpoints.WORLD_CUP));
     rt.add(new ServiceVM("Northwind", ODataEndpoints.NORTHWIND));
+    
+    rt.add(new ServiceVM("odata4j-sample.cloudfoundry", ODataEndpoints.ODATA4J_SAMPLE_CLOUDFOUNDRY));
 
     return rt;
   }

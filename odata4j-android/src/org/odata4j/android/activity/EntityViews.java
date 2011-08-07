@@ -25,9 +25,11 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup.LayoutParams;
+import android.widget.LinearLayout;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class EntityViews {
 
@@ -81,6 +83,15 @@ public class EntityViews {
         });
       }
     }
+    
+    // edit
+    spannables.append("edit", new OnClickListener(){
+      @Override
+      public void onClick(View v) {
+        context.startActivity(new Intent(context, EntityEditActivity.class)
+            .putExtra("service", service));
+            //.putExtra("properties", new SerializableORelatedEntityLink((ORelatedEntityLink) link)));
+      }});
     spannables.apply(linksView);
     layout.addView(linksView);
     return layout;
