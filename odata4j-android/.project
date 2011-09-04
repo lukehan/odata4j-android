@@ -30,46 +30,4 @@
 		<nature>com.android.ide.eclipse.adt.AndroidNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>src/org/odata4j/examples/BaseExample.java</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/odata4j-core/src/test/java/org/odata4j/examples/BaseExample.java</locationURI>
-		</link>
-		<link>
-			<name>src/org/odata4j/examples/ODataEndpoints.java</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/odata4j-core/src/test/java/org/odata4j/examples/ODataEndpoints.java</locationURI>
-		</link>
-		<link>
-			<name>src/org/odata4j/examples/consumer/AppEngineConsumerExample.java</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/odata4j-core/src/test/java/org/odata4j/examples/consumer/AppEngineConsumerExample.java</locationURI>
-		</link>
-		<link>
-			<name>src/org/odata4j/examples/consumer/AzureTableStorageConsumerExample.java</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/odata4j-core/src/test/java/org/odata4j/examples/consumer/AzureTableStorageConsumerExample.java</locationURI>
-		</link>
-		<link>
-			<name>src/org/odata4j/examples/consumer/DallasConsumerExampleAP.java</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/odata4j-core/src/test/java/org/odata4j/examples/consumer/DallasConsumerExampleAP.java</locationURI>
-		</link>
-		<link>
-			<name>src/org/odata4j/examples/consumer/DallasConsumerExampleUnescoUIS.java</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/odata4j-core/src/test/java/org/odata4j/examples/consumer/DallasConsumerExampleUnescoUIS.java</locationURI>
-		</link>
-		<link>
-			<name>src/org/odata4j/examples/consumer/NetflixConsumerExample.java</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/odata4j-core/src/test/java/org/odata4j/examples/consumer/NetflixConsumerExample.java</locationURI>
-		</link>
-		<link>
-			<name>src/org/odata4j/examples/consumer/ODataTestServiceReadWriteExample.java</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/odata4j-core/src/test/java/org/odata4j/examples/consumer/ODataTestServiceReadWriteExample.java</locationURI>
-		</link>
-	</linkedResources>
 </projectDescription>
